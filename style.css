@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chokokutai', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* .sidebar{
+    background-color: #cfcbcb;
+    width: 300px;
+    height: 120vh;
+    
+}
+.sidebar nav{
+    padding: 35px;
+    font-size: 25px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(204, 131, 41);
+} */
+.main{
+    /* background-color: yellow; */
+    width: 100%;
+  
+   
+}
+.container{
+  
+    width: 100%;
+    height: 100vh;
+}
+
+.myinfor{
+    /* background-color: #7dc229; */
+    height: 55vh;
+    width: 75vw;
+    margin: 100px auto ;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mypic img{
+    height: 45vh;
+    margin-left: 15px;
+    border: 1px solid lightgreen;
+    border-radius: 100px;
+}
+.hello  h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hello p{
+    font-size: 19px;
+    font-weight: bold;
+   
+}
+.button{
+    margin-top: 20px;
+}
+
+.button button{
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+.button button:hover{
+    color: dodgerblue;
+    background-color: white;
+    transform: translateX(5px);
+}
+
+/* -------------contact us css -----------*/
+
+.mainform{
+    margin: 100px 150px;
+    
+}
+.contactform form{
+    margin: 60px 90px ;
+    width: 550px;
+    text-align: center;
+  
+}
+.contactform .mb-3{
+    margin: 10px;
+}
+
+.contactform .form-label{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.contactform .form-control{
+    width: 230px;
+    border-radius: 20px;
+    height: 29px;
+}
+
+.contactform button{
+    background-color: rgb(21, 187, 187);
+    color: white;
+    padding: 3px 14px; 
+    border-radius: 15px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.contactform button:hover{
+    color: white;
+    background-color: black;
+    transform: translateX(5px);
+}
+
+
+
+/*--------------- blog css----------------- */
+.blogcontainer{
+  margin-left: 100px;
+   margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+main .div{
+    display: flex;
+}
+.blogcontainer .div{
+    margin-top: 300px;
+    display: flex;
+}
+.blogcontainer p{
+    font-family: 'Chokokutai',;
+    font-family: 'Kanit', sans-serif;
+    font-family: sans-serif;
+    margin-top: 20px;
+   
+   
+}
+
+.blogcontainer h2{
+    margin: 20px;
+}
+.blogcontainer h1{
+    margin: 20px;
+}
